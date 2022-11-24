@@ -1,0 +1,72 @@
+body{
+    background-color: hsl(222, 26%, 31%);
+}
+
+.calc-header{
+    color: white;
+}
+
+.buttons{
+    background-color:  hsl(223, 31%, 20%)
+}
+
+.action{
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+
+    border: none;
+    border-bottom: 2px hsl(224, 28%, 35%) solid;
+}
+
+.action:active{
+    background-color: hsl(225, 21%, 59%);
+}
+
+.number{
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+
+    border: none;
+    border-bottom: 2px hsl(28, 16%, 65%) solid;
+}
+
+.number:active{
+    background-color: white;
+}
+
+.equals{
+    background-color: hsl(6, 63%, 50%);
+    color: white;
+
+    border: none;
+    border-bottom: 2px hsl(6, 70%, 34%) solid;
+}
+
+.equals:active{
+    background-color: hsl(6, 63%, 60%);
+}
+
+.text-area{
+    background-color: hsl(224, 36%, 15%);
+}
+
+.text-area input, 
+.text-area input::placeholder{
+    color: hsl(0, 0%, 100%);
+}
+
+input[type='radio']:checked:after {
+    background-color: hsl(6, 63%, 50%);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%); 
+    font-weight: 100;
+}
+.attribution a { 
+    color: hsl(6, 63%, 50%);
+    font-weight: 400;
+}
